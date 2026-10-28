@@ -429,7 +429,11 @@ h3 { font-size: 1.08rem; font-weight: 700; line-height: 1.35; }
 }
 .contact-card address { font-style: normal; color: var(--muted); font-size: 0.95rem; }
 .contact-card__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.contact-card__text { color: var(--muted); font-size: 0.95rem; }
+.btn--social { background: #1877f2; color: #fff; }
+.btn--social:hover { background: #0f5fcc; }
 .contact-card .card__icon { background: var(--surface); }
+.contact-card--pending { grid-column: 1 / -1; }
 .contact-card--pending h3, .contact-card--pending p { color: var(--pending-ink); }
 .contact-card--pending p { font-size: 0.95rem; }
 
