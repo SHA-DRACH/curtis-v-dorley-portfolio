@@ -137,6 +137,12 @@ svg { width: 1.25em; height: 1.25em; fill: none; stroke: currentColor; stroke-wi
   font: 700 0.95rem/1 var(--display); letter-spacing: 0.02em;
 }
 .brand__text { font: 600 1.1rem/1.1 var(--display); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.flag {
+  flex: none; width: 38px; height: 20px;
+  stroke: none; border-radius: 3px; overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.35), 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+.site-header.is-scrolled .flag { box-shadow: 0 0 0 1px var(--rule), 0 1px 3px rgba(0, 0, 0, 0.12); }
 
 .nav__list { list-style: none; display: flex; gap: 4px; margin: 0; padding: 0; }
 .nav__list a {
