@@ -301,6 +301,19 @@ h3 { font-size: 1.08rem; font-weight: 700; line-height: 1.35; }
 .facts-card dt { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 .facts-card dd { margin: 0; font-weight: 600; }
 
+/* Education & personal summary */
+.profile-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin-top: clamp(40px, 5vw, 64px); align-items: start; }
+.info-card {
+  display: grid; gap: 12px; align-content: start; min-width: 0;
+  background: var(--surface); border: 1px solid var(--rule); border-radius: 18px; padding: 28px;
+}
+.info-card h3 { font: 600 1.25rem/1.2 var(--display); }
+.info-lede { color: var(--ink); font-weight: 500; }
+.info-list { list-style: none; margin: 4px 0 0; padding: 0; display: grid; }
+.info-list li { display: grid; gap: 2px; padding-block: 12px; border-top: 1px solid var(--rule); }
+.info-list strong { font-weight: 700; }
+.info-list span { color: var(--muted); font-size: 0.95rem; }
+
 /* Placeholders */
 .pending-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: clamp(40px, 5vw, 64px); }
 .pending, .contact-card--pending {
@@ -541,7 +554,8 @@ h3 { font-size: 1.08rem; font-weight: 700; line-height: 1.35; }
 }
 
 @media (max-width: 680px) {
-  .cards, .events, .pending-grid, .contact-panel__cards { grid-template-columns: minmax(0, 1fr); }
+  .cards, .events, .pending-grid, .profile-grid, .contact-panel__cards { grid-template-columns: minmax(0, 1fr); }
+  .info-card { padding: 20px; }
   .section__head--row { align-items: flex-start; }
   .card, .event, .tl-card { padding: 20px; }
   .quote { flex-basis: 88%; padding: 26px 22px; }

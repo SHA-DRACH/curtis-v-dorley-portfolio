@@ -20,11 +20,10 @@ Open `index.html` in a browser.
 
 ## Still to be added
 
-Sections marked "To be provided" on the page need details from Hon. Dorley:
+Education, earlier career, the personal summary and family details come from the *Summary Profile of Hon. Curtis V. Dorley* provided by his office. The one section still marked "To be provided" needs details from Hon. Dorley:
 
-- Education (degrees, institutions, years)
-- Professional roles from 2015 to 2024
-- A personal summary line
-- Official email, phone and social media accounts
+- Official email, phone and personal social media accounts
+
+Years for his earlier roles (UNESCO Commission, Ministry of Education, NASSCORP) and degrees were not in the profile and can be added when known.
 
 All other content comes from public sources, listed under "Press & references" on the page.
